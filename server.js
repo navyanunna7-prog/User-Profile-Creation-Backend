@@ -11,7 +11,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "http://localhost:5174", // change to your frontend's actual URL
+    origin: "https://user-profile-creation-frontend.vercel.app/", // change to your frontend's actual URL
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
